@@ -1,0 +1,38 @@
+table{
+        background: #fff;
+        box-shadow: rgb(255, 255, 255,0.2) 0px 7px 29px 0px;
+        border-collapse: collapse;
+        border-radius: 1rem;
+}
+td{
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+    padding: 1.5rem;
+    text-align: center;
+    color: rgb(46, 45, 45);
+    width: 30rem;
+}
+.tdhead{
+    border: none;
+}
+tr{
+    border-top: 2px solid rgb(192, 189, 189);
+}
+
+th{
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+    padding: 1.5rem;
+    text-align: center;
+    color: rgb(140, 180, 234);
+    width: 30rem;
+}
+      
+.contact-card{
+    font-weight: bold;
+    font-size: 12px;
+}
+.card-name,.card-email,.card-phone,.msg{
+    font-size: 12px;
+
+}

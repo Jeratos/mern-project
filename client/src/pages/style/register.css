@@ -1,0 +1,140 @@
+.container-reg{
+    display: flex;
+    flex-wrap: wrap;
+
+    font-size: 1.5rem;
+    justify-content: space-around;
+    padding: 1.8rem 2.5rem;
+    margin: 0.2rem 7rem;
+    border-radius: 7px;
+}
+.form-reg{
+ margin-top: 8rem;   
+}
+.form-reg h1{
+    border-bottom: 5px solid #8daaea;
+    display: inline;
+}
+.form-reg form{
+    margin-top: 10px;
+}
+.in{
+    display: block;
+    width: 30vw;
+    /* border-radius: 7px; */
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    margin: 1rem;
+    background-color: #606060;
+    padding: 0.8rem 1rem;
+    
+}
+.subbtn{
+    width: 10vw;
+    height: 4.5vh;
+    border-radius: 7px;
+    margin-left: 1rem;
+    
+}
+.img-reg{
+    height: 50rem;
+    width: 50rem;
+    opacity: 0.9;
+
+}
+
+ .pass{
+    /* border: none; */
+    display: inline;
+ background-color: transparent;    
+ border: none;
+ height: 3.2rem;
+ width: 27vw;
+ 
+ 
+}
+.pass-div{
+    display: block;
+    width: 30vw;
+    /* border-radius: 7px; */
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    margin: 1rem;
+    padding: 0.1rem 0.3rem;
+    background-color: #606060;
+    
+
+}
+.pass-div p{
+    display: inline;
+    padding-left:  1rem;
+    
+}
+
+
+@media (max-width: 1080px){
+    .img-reg{
+        height: 37rem;
+        width: 37rem;
+    }  
+    .form-reg form input{
+        width: 25vw;
+    }
+    .container-reg{
+    
+        padding: 1.8rem 2.5rem;
+        margin: 0.2rem 4rem;
+    }
+}
+
+@media (max-width: 720px){
+    .img-reg{
+        height: 30rem;
+        width: 30rem;
+        margin-top: 6rem;
+    }  
+   
+    .form-reg form .in{
+        
+        width: 50vw;
+        margin: 1rem;
+    }
+    .pass-div{
+        width: 50vw;
+
+    }
+    
+    .form-reg{
+        position: absolute;
+        top:0;
+        left: 8rem;
+       
+
+    }
+    .img-reg{
+        opacity: 0.5;
+    }
+    
+}
+@media (max-width: 550px){
+    
+   
+    .form-reg form input{
+        
+        width: 50vw;
+        margin: 1rem;
+
+    }
+    .form-reg{
+        position: absolute;
+        margin-top: 8rem;   
+        right: 5rem;
+       }
+       .img-reg{
+        /* height: 30rem; */
+        /* width: 30rem; */
+        opacity: 0.5;
+        margin-top: 0.2rem;
+        margin-right: 9rem;
+    }  
+}

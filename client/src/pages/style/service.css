@@ -1,0 +1,50 @@
+.card-main{
+    margin: 2rem 7rem;
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adapt the columns */
+    grid-template-rows: auto; /* Allow rows to adjust automatically */
+    justify-items: center;
+     grid-gap:  2rem 1rem; 
+}
+
+.card-container{
+    
+    border: 2px solid white;
+    border-radius: 8px;    
+}
+
+.head{
+    margin: 2rem 7rem;
+    border-bottom: 5px solid #8daaea;
+    display: inline;
+}
+
+.img-div{
+    text-align: center;
+}
+.img-service{
+    height: 25rem;
+    width: 25rem;
+}
+
+.two-col{
+ display:  flex;
+ font-size: 15px;
+ justify-content: space-between;
+ padding-top: 1rem;
+
+}
+.card-detail h1{
+    margin: 0 10px;
+    padding: 0 5px;
+    font-size: large;
+}
+
+.card-detail p{
+    margin: 10px 2px;
+    margin-top: 0;
+    padding: 5px 5px;
+    font-size: 14px;
+
+}
