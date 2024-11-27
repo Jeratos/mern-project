@@ -6,7 +6,6 @@ dotenv.config()
 
 const URI= process.env.MONGODB_URI;
 
-// let URI="mongodb+srv://ayush:ayushtest@cluster0.mmyww.mongodb.net/mern_admin?retryWrites=true&w=majority&appName=Cluster0";
 
 // mongoose.connect(URI);
 
